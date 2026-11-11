@@ -1,0 +1,31 @@
+body {
+  min-height: 100vh;
+  background: #f4f7fb;
+  color: #273043;
+}
+
+.app-card {
+  border: 0;
+  border-radius: 1rem;
+  box-shadow: 0 12px 30px rgba(39, 48, 67, 0.1);
+}
+
+.brand-title {
+  color: #4f46e5;
+  font-weight: 700;
+}
+
+.btn-primary {
+  background-color: #4f46e5;
+  border-color: #4f46e5;
+}
+
+.btn-primary:hover,
+.btn-primary:focus {
+  background-color: #4338ca;
+  border-color: #4338ca;
+}
+
+.page-wrap {
+  min-height: 100vh;
+}

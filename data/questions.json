@@ -1,0 +1,62 @@
+[
+  {
+    "id": 1,
+    "question": "What does HTML stand for?",
+    "choices": ["HyperText Markup Language", "HighText Machine Language", "Hyperlink Text Management Language", "Home Tool Markup Language"],
+    "correctAnswer": 0
+  },
+  {
+    "id": 2,
+    "question": "Which language is mainly used to style web pages?",
+    "choices": ["HTML", "CSS", "SQL", "Python"],
+    "correctAnswer": 1
+  },
+  {
+    "id": 3,
+    "question": "Which JavaScript keyword can create a variable that can change?",
+    "choices": ["let", "style", "function", "return"],
+    "correctAnswer": 0
+  },
+  {
+    "id": 4,
+    "question": "Which HTML tag creates a link?",
+    "choices": ["<img>", "<a>", "<p>", "<div>"],
+    "correctAnswer": 1
+  },
+  {
+    "id": 5,
+    "question": "What does CSS stand for?",
+    "choices": ["Creative Style System", "Cascading Style Sheets", "Computer Style Sheets", "Colorful Style Sheets"],
+    "correctAnswer": 1
+  },
+  {
+    "id": 6,
+    "question": "Which method converts a JSON string into a JavaScript object?",
+    "choices": ["JSON.stringify()", "JSON.parse()", "JSON.convert()", "JSON.object()"],
+    "correctAnswer": 1
+  },
+  {
+    "id": 7,
+    "question": "Which event happens when a user clicks a button?",
+    "choices": ["change", "submit", "click", "load"],
+    "correctAnswer": 2
+  },
+  {
+    "id": 8,
+    "question": "Where does a browser store Local Storage data?",
+    "choices": ["On the user's browser", "Only on a web server", "Inside the HTML file", "In a CSS file"],
+    "correctAnswer": 0
+  },
+  {
+    "id": 9,
+    "question": "Which JavaScript method is used to get an element by its id?",
+    "choices": ["document.getElementById()", "document.getElementsByClass()", "document.queryAll()", "document.findElement()"],
+    "correctAnswer": 0
+  },
+  {
+    "id": 10,
+    "question": "What does fetch() help JavaScript do?",
+    "choices": ["Change CSS colors", "Request data from a file or server", "Create HTML elements only", "Save passwords"],
+    "correctAnswer": 1
+  }
+]

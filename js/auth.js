@@ -98,6 +98,5 @@ if (loginForm) {
 
 function logout() {
   localStorage.removeItem(currentUserKey);
-  localStorage.removeItem("quizScore");
   window.location.href = "index.html";
 }

@@ -47,8 +47,19 @@ function showQuestion() {
 
   question.choices.forEach(function (choice, index) {
     const option = document.createElement("div");
+    const input = document.createElement("input");
+    const label = document.createElement("label");
+
     option.className = "form-check border rounded p-3";
-    option.innerHTML = `<input class="form-check-input" type="radio" name="answer" id="answer${index}" value="${index}"><label class="form-check-label w-100" for="answer${index}">${choice}</label>`;
+    input.className = "form-check-input";
+    input.type = "radio";
+    input.name = "answer";
+    input.id = `answer${index}`;
+    input.value = index;
+    label.className = "form-check-label w-100";
+    label.htmlFor = `answer${index}`;
+    label.textContent = choice;
+    option.append(input, label);
     answerChoices.appendChild(option);
   });
 
